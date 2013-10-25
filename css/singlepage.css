@@ -1,3 +1,30 @@
+
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 40px;
+  width: auto;
+  max-width: 256px;
+  margin: 20px auto;
+font-family:	'Raleway', sans-serif;
+font-size: 		1.2em;
+font-weight: 	300;
+color: 			#4D4D4D;
+}
+
+.darken {
+	opacity: 0.1;	
+}
+
+.darken:hover {
+	opacity: 0.2;	
+}
+
+.tinted:hover {
+	opacity: 0.8;	
+}
+
 .main {
 	font-family:	'Raleway', sans-serif;
 	font-size: 		1.6em;
@@ -46,7 +73,6 @@
 	height: 60px;
 	width:  60px;
 	overflow:hidden; /* this is important */
-	border:1px solid #ccc;
 }
 
 .menu {
