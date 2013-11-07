@@ -31,9 +31,9 @@
 		  <ul>
 			  <li class="center tight"><img height="72px" src="img/lovegreen.png"></li>
 			  <a href='javascript:$(".main").moveTo(2);'><li>10 PASSI PER RIMETTERE IN PIEDI UNA COPPIA</li></a>
-			  <a href='javascript:$(".main").moveTo(2);'><li>CHI SIAMO</li></a>
-			  <a href='javascript:$(".main").moveTo(2);'><li>DOMANDE E RISPOSTE</li></a>
-			  <a href='javascript:$(".main").moveTo(2);'><li>SCRIVICI</li></a>
+			  <a href='javascript:$(".main").moveTo(3);'><li>CHI SIAMO</li></a>
+			  <a href=''><li>DOMANDE E RISPOSTE</li></a>
+			  <a href='javascript:$(".main").moveTo(4);'><li>SCRIVICI</li></a>
 			  <!--li> facebook </li-->
 		  </ul>
   </div>
@@ -125,12 +125,11 @@
   <script>
 $('.open-popup-link').magnificPopup({
     type:'inline',
-    midClick: true, // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-
+    midClick: true,
     removalDelay: 300,
     mainClass: 'mfp-fade',
-	alignTop: false
-
+	alignTop: false,
+	closeOnContentClick: true
   });
   </script>
 
